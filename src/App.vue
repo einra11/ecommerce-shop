@@ -35,7 +35,7 @@ export default {
       variant: "variant",
       menuItems: [
         {
-          icon: "sentiment_satisfied_alt",
+          icon: "shopping_cart",
           title: "Products",
           link: "/products"
         },

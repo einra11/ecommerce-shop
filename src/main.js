@@ -22,6 +22,8 @@ import {
   VAvatar,
   VAlert,
   VTextField,
+  VParallax,
+  VDataIterator,
   transitions
 } from "vuetify";
 
@@ -43,6 +45,8 @@ Vue.use(Vuetify, {
     VAvatar,
     VAlert,
     VTextField,
+    VParallax,
+    VDataIterator,
     transitions
   },
 
