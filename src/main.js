@@ -21,6 +21,7 @@ import {
   VImg,
   VAvatar,
   VAlert,
+  VTextField,
   transitions
 } from "vuetify";
 
@@ -41,6 +42,7 @@ Vue.use(Vuetify, {
     VImg,
     VAvatar,
     VAlert,
+    VTextField,
     transitions
   },
 

@@ -5,7 +5,7 @@
       clipped-left
     >
       <v-toolbar-title>
-        <router-link to="/" tag="span" style="cursor: pointer"><h4 class="display-2">Store!</h4></router-link>
+        <router-link to="/" tag="span" style="cursor: pointer"><h4 class="display-2">Thai Beauty Products</h4></router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
@@ -22,7 +22,7 @@
       <main>
       <router-view></router-view>
     </main>
-    <v-footer fixed>
+    <v-footer absolute>
       <span>&copy; 2017</span>
     </v-footer>
   </v-app>
@@ -37,11 +37,11 @@ export default {
         {
           icon: "sentiment_satisfied_alt",
           title: "Products",
-          link: "/terminals"
+          link: "/products"
         },
-        { icon: "person", title: "Service", link: "/profile" },
-        { icon: "face", title: "Sign up", link: "/signup" },
-        { icon: "lock_open", title: "Sign in", link: "/signin" }
+        { icon: "person", title: "Service", link: "/home-service" },
+        { icon: "face", title: "Sign up", link: "/sign-up" },
+        { icon: "lock_open", title: "Sign in", link: "/sign-in" }
       ]
     };
   }
