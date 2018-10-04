@@ -23,7 +23,17 @@ export const store = new Vuex.Store({
     user: null,
     loading: false,
     error: null,
-    loadedLogs: []
+    loadedLogs: [],
+    products: [
+      { codeId: 1, src: "products/slider1.jpg", flex: 12 },
+      { codeId: 2, src: "products/cakeHeader.jpg", flex: 8 },
+      { codeId: 3, src: "products/cakeHeader.jpg", flex: 4 },
+      { codeId: 4, src: "products/waiting-works.jpg", flex: 12 },
+      { codeId: 1, src: "products/slider1.jpg", flex: 6 },
+      { codeId: 2, src: "products/cakeHeader.jpg", flex: 6 },
+      { codeId: 3, src: "products/cakeHeader.jpg", flex: 6 },
+      { codeId: 4, src: "products/waiting-works.jpg", flex: 6 }
+    ]
   },
   mutations: {
     setLoadedLogs(state, payload) {
@@ -205,6 +215,9 @@ export const store = new Vuex.Store({
       return state.loadedterminals.sort((terminalA, terminalB) => {
         return terminalA.index > terminalB.index;
       });
+    },
+    loadedproducts(state) {
+      return state.products;
     },
     loadedLogs(state) {
       return state.loadedLogs.sort((logA, logB) => {

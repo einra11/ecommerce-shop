@@ -5,7 +5,7 @@
       clipped-left
     >
       <v-toolbar-title>
-        <router-link to="/" tag="span" style="cursor: pointer"><h4 class="display-2">Thai Beauty Products</h4></router-link>
+        <router-link to="/" tag="span" style="cursor: pointer"><h4 class="display-2">LGBT Thai Beauty Products</h4></router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>

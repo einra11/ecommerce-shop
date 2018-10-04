@@ -60,7 +60,8 @@ Vue.use(Vuetify, {
     warning: "#FFC107"
   }
 });
-
+import AlertCmp from "./components/Shared/Alert";
+Vue.component("app-alert", AlertCmp);
 new Vue({
   el: "#app",
   router,
